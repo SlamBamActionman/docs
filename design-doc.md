@@ -8,8 +8,8 @@ A design document may be more or less precise depending on how large or small th
 
 Below is the recommended template to use.  
 <br>
-<br>
 ## Template
+<br>
 
 # Document Name
 
@@ -20,7 +20,7 @@ Below is the recommended template to use.
 > A collection of simple high-level ideas that embody this game area. These are usually expressed with singluar words or short punchy phrases, but may also include a short one sentence explanation. The goal is to convey the *feeling* a player should have when playing/interacting with the game area, such that other documents and PRs can align with that intended experience. 
 
 ## Responsibilities
-> A collection of points regarding what the game area is responsible for in terms of gameplay, mechanics and/or station duties. This section should highlight what the game area brings to the game and simulation that is unique. If the game area is a resource provider to the station, this is highlighted here.
+> A collection of points regarding what the game area is responsible for in terms of gameplay, mechanics and/or station duties. This section should highlight what unique things the game area brings to the game and simulatione. If the game area is a resource provider to the station, this is highlighted here.
 
 ## Desired Gameplay
 > A list of high-level concepts, explaining the *kind* of gameplay and mechanics we want to see in the game area's design. Each list entry should be a short sentence summarizing the design pillar with a more detailed (1-2 paragraph) description underneath. 

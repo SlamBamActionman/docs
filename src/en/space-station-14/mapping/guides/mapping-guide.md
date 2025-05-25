@@ -35,6 +35,8 @@ When designing a station, you want to have a healthy balance of **Departmental**
 
 Avoid dead end hallways and areas. 
 
+Avoid double-thick walls.
+
 
 
 ### General Areas
@@ -42,6 +44,46 @@ Avoid dead end hallways and areas.
 #### Hallways
 
 #### Maintenance
+
+Despite their often grungy appearance and lack of department belonging, Maintenance pathways are one of the most important parts of creating good station movement. In the abstract Maintenance is not different to a regular hallway (you get from point A to point B) but their ability to slot into anywhere on the station makes them a powerful tool.
+
+In mechanical terms, Maintenance is signified by a lack of cameras, poor lighting, tight spaces and creating distance between/around high-population areas on the station. Since departments often create a large block of untraversable area for the majority of crew, Maintenance should open up possibilities to move around them. **[TODO: Needs to be elaborated!]** It should also act as alternate entrance/exit points for a department, in the event that crew needs to evacuate the area but are unable to use the main entry points. Maintenance also provides an excellent opportunity to prevent dead-end hallways and gives players somewhere to retreat in the event of hazardous environments.
+
+Since SS14 is a game involving antagonists causing chaos and murders on the station, Maintenance plays a key part in this. Maintenance acts as a place to retreat/slip into as an antagonist, both to avoid the AI and bumping into any crew walking the main hallways. Design your Maintenance entrances such that a player is never too far away from one. Your station should have several areas far enough away from high-population locations (such as departments) where a person can be murdered without risk of being overheard. This also provides a staging platform for antagonists that need to invade the station, or players seeking to hide and prepare with less risk of being found out by patrolling Security.
+
+Another purpose of Maintenance is to act as a playground for bored crew. Scavanging it for tools and parts (known as "Maints Diving") is one part of it, and you want to encourage that by mapping fun loot and random-spawn Maintenance closets (make sure to not go overboard here!). But Maintenance is also an excellent way to let players flex the sandbox nature of the game and create something in the space. The "Maintenance Bar" is a staple on many stations, where the area and materials are mapped to encourage opening up an unofficial bar. Aim to include several of these kinds of locations in your map; even if they go unused, they work great when doubled as traversal/preparation areas mentioned above.
+
+Therefore, when adding Maintenance, try to do it with a purpose. Is the Maintenance tunnel providing a necessary shortcut? Does it open up an opportunity for an antagonist? Is it creating movement opportunities into/around departments? Are you enabling a fun side-activity for players?
+
+```admonish note "{Aesthetics}"
+Especially Maintenance should feel lived-in; what would it look like after the station's maintenance staff spent time living in the back tunnels of the station? What things have they left in there? What did they do away from NanoTrasen's prying eyes?
+```
+
+```admonish info
+While you are free to map them more openly, there should generally be a fire-safety or emergency-oxygen closet right inside the entrance to a Maintenance section. It's fine to disperse more of these further into Maintenance as well!
+```
+
+```admonish info
+Don't forget, just because it's Maintenance does not mean it's exempt from firelocks! You do not have to worry about air or fire alarms, but since Maintenance tends to sprawl out across the station and doesn't always have airlocks, you don't want to end up with a single hole spacing large amounts of the station. It's not necessary to include atmospherics pipes into maintenance, but can serve as a nice gesture to areas that crew may restore and/or spend a lot of time in.
+```
+
+```admonish info
+Maintenance should have air/oxygen/nitrogen canisters mapped inside of it, preferably in groups and not too far from the entrances. This is to allow players to refill their breathing tanks in the event of long-duration spacing or for species that require always-on internals. Air canisters are primarily used to refill areas that have gotten spaced. Aim to include enough canisters such that a player feels they only have to "slip into maintenance" to find a canister, rather than needing to remember a specific place. 
+```
+
+```admonish warning
+Engineering substations should generally be freely accessible to Engineers, and Maintenance is a good place to put them. 
+```
+
+```admonish warning
+Avoid making Maintenance tunnels thin and straight. 1-tile wide tunnels can be fine to some degree, but make sure you break it up with 2-wide tunnels and small rooms. This opens up opportunities for mapping tables, racks and equipment, which help constrain the space but provide some interaction and makes the area feel more dynamically sized. Long, straight tunnels become an issue since it forces boring movement (just hold one directional key), but they also eliminate a lot of decision-making when fighting ranged weapons, since you're constrained in which way to move and there is no way to break sightlines. Even small 1-tile bends can suffice here.
+```
+
+<details>
+<summary>Maintenance Checklist</summary>
+<br>
+- <b>[TODO: Fill in checklist]</b>
+</details>
 
 #### Arrivals
 
@@ -83,9 +125,13 @@ Avoid dead end hallways and areas.
 
 #### Morgue
 
+#### Cryogenics
+
 #### Surgery
 
 #### Chief Medical Officer's Office
+
+#### Virology
 
 ### Engineering
 
@@ -149,6 +195,8 @@ Threatre is an umbrella name for the Clown, Mime and Musician jobs. These jobs h
 
 Canisters in maintenance
 Publicly available drain
+How to use station beacons
+Avoid mapping too strong loot
 
 ### Decorations & Decals
 

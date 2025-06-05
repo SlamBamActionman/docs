@@ -61,6 +61,10 @@ There's a general expectation that public areas and hallways are where you find 
 If you have a hallway next to a department it can be good practice to include floor decals/colors that match the department! It helps players identify where they are on the station and where the hallway leads to without looking at signs/maps!
 ```
 
+```admonish info
+To reiterate: always provide at least two pathways into/out of a Hallway. It may seem like a subtle thing but is very important for good station movement flow. Don't forget it!
+```
+
 ```admonish warning
 Avoid making super-wide hallways! They tend to look bad due to having a lot of plain similar space, and the rows of airlocks/firelocks necessary aren't great either. You can break up wide hallways with planters to create parkways or convert them to a Common Area of some sort.  
 ```
@@ -133,7 +137,33 @@ Avoid making Maintenance tunnels thin and straight. 1-tile wide tunnels can be f
 - <b>[TODO: Fill in checklist]</b>
 </details>
 
-#### Arrivals
+#### Arrivals & Cryosleep
+
+Arrivals is one of two locations where late-join players arrive to the station in a shuttle and get to participate in the round. Therefore it should have the infrastructure to support it; you want to include maps, signs and labels to guide the player into the station. A good practice is to provide the player movement options; leading Arrivals' main path out into a crossing and providing multiple Maintenance accesses are examples of this. 
+
+Cryosleep is the other location and acts similar to Arrivals but mechanically works differently. Instead of a shuttle docking with the station players spawn in via Cryo Beds, which simply act as spawnpoints. These beds also have a double functionality of letting players exit rounds in a way that is less disruptive than e.g. suicide, and also opens up the job slot the player character had. Because of this Cryosleep needs to cover being travelled *to* as well as from, while Arrivals mosty concerns itself with travelling *from*.
+
+Whereas Arrivals need to connect with some part of space to support the shuttle, and therefore tends to be on the edge of the station, Cryosleep can be located deep within the station. 
+
+Arrivals is in a unique position in that it's (as of the writing of this guide) protected from sabotage via server rules. This is to prevent new players joining the round immediately dying upon arriving at the station. Because of this, you should be careful of where you position Arrivals when you plan your map to prevent it being a place antags interact with. Avoid putting it right next to departments or Evacuation and don't make it interface with a high-traffic area. Cryosleep does not explicitly have this rules restriction but should still be mapped with it in mind.
+
+```admonish note "{Aesthetics}"
+Both Arrivals and Cryosleep are public areas and may be one of the first impressions a player gets of your station. What should the player see as they join the game? 
+```
+
+```admonish info
+Same as not mapping Arrivals/Cryosleep too close to high-population areas, don't make those areas too interesting to be in. Providing some ammenities is fine but Arrivals/Cryosleep are places you should primarily travel from/to because of their gameplay functionality.
+```
+
+```admonish info
+Sometimes the station may be in a bad state even if Arrivals/Cryosleep wasn't intentionally targetted. It may be a good idea to map in emergency lockers nearby so that players don't immediately die due to environmental hazards upon spawning.
+```
+
+```admonish warning
+Arrivals airlocks should NOT be access locked. This is because power issues or confusion may cause players to end up on the outside of the airlock in space. Due to the shuttle's ability to gib people upon arriving players should be able to enter the station through the Arrivals airlock even when the shuttle isn't docked.
+
+Note that this can also make Arrivals an appealing entry point for antags. Provide alternative public space accesses to avoid Arrivals being in the crossfire for a dangerous antag entering the station!
+```
 
 #### Evacuation
 

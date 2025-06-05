@@ -18,7 +18,7 @@ Use existing stations as inspiration and guidance! Comparing at the size of depa
 
 ### Station Theme
 
-When trying to conceptualize a new station, it can be useful to decide on a **theme**, **lore** or **gimmick** for your map as a starting point. This can help inform decisions you make about the station's layout and design, to ensure that it feels cohesive and unique. The default setting of SS14 stations is a corporate research station accommodating NanoTrasen workers and passengers. Some examples include:
+When trying to conceptualize a new station, it can be useful to decide on a **theme**, **lore** or **gimmick** for your map as a starting point. This can help inform decisions you make about the station's layout and design to ensure that it feels cohesive and unique. The default setting of SS14 stations is a corporate research station accommodating NanoTrasen workers and passengers. Some examples include:
 
 - Oasis: Has a **theme** around a greenery, with a **gimmick** of a large central room in the middle of the station. 
 - Fland: Has a **lore** of being built as part of an asteroid, with a **theme** of indoors asteroid rocks as part of the station.
@@ -26,10 +26,12 @@ When trying to conceptualize a new station, it can be useful to decide on a **th
 - Plasma: Has a **gimmick** of active plasma pools on the station, with the **lore** being that the station is an old plasma asteroid mining rig, with the **theme** being dusty asteroid hallways.
 
 ```admonish info
-Remember! Having a theme or focusing on a gimmick does not guarantee a good station! Seek feedback, playtest early and don't half-ass your concept.
+Remember! Having a theme or focusing on a gimmick does not guarantee a good station! Use it as a guide but avoid compromising the playability of the station purely to fit your theme or gimmick. Seek feedback, playtest early and don't half-ass your concept.
 ```
 
 ## General Station Layout
+
+**[TODO: Expand this section? Maybe move things into a Tips & Tricks section instead.]**
 
 When designing a station, you want to have a healthy balance of **Departmental**, **General** and **Maintenance** areas. 
 
@@ -42,6 +44,52 @@ Avoid double-thick walls.
 ### General Areas
 
 #### Hallways
+
+Hallways are the main traversal option for moving across the station, connecting the different departments and points of interest. They should be well-lit, have camera coverage, provide ample space for movement and have clear signage for where they lead - this results in them being fairly high-traffic and a comfortable option for station crew. While they may be fairly simple you should not take them for granted; there are good and bad hallways. 
+
+Hallways should provide enough space to move large equipment such as crates and machines without impeding the flow too much; generally 3-tile wide hallways are a good balance between width without feeling too open, though they may be made smaller or larger in certain circumstances (e.g. connecting to rooms, side-passages). Hallways should rarely result in a complete dead-end for three reasons; dead-ends provide little reason to use the hallway, backtracking is largely unfun for players, and in the event of environmental hazards such as spacing the player should always have at least one pathway that wasn't the one they entered from. This pathway can be an airlock into Maintenance but shouldn't be departmentally restricted. Generally the docking arms for Arrivals/Evac can be treated as exceptions.
+
+```admonish note "{Aesthetics}"
+Hallways are what's available to the general public and should therefore have general appeal. Are there places for crew to take breaks in their worklife? Common areas to spend time? What decorations would your station have set up for general crew? 
+```
+
+```admonish info
+There's a general expectation that public areas and hallways are where you find snack/soda vendors as well as fire-safety/emergency-oxygen lockers. It can be a good idea to make small cubbies for them in straight hallways, or to put them at the end of a hallway, as to not disrupt movement. 
+```
+
+```admonish info
+If you have a hallway next to a department it can be good practice to include floor decals/colors that match the department! It helps players identify where they are on the station and where the hallway leads to without looking at signs/maps!
+```
+
+```admonish warning
+Avoid making super-wide hallways! They tend to look bad due to having a lot of plain similar space, and the rows of airlocks/firelocks necessary aren't great either. You can break up wide hallways with planters to create parkways or convert them to a Common Area of some sort.  
+```
+
+```admonish warning
+Avoid making super-long hallways! Sometimes it may be unavoidable, but with good planning you should be able to keep your station from having a long hallways that reaches from one end of the station to the next. Holding a single key to get from one place to the other with perfect sightlines is uninteresting gameplay. 
+```
+
+<details>
+<summary>Hallways Checklist</summary>
+<br>
+- <b>[TODO: Fill in checklist]</b>
+</details>
+
+#### Common Areas
+
+Interspersed with Hallways you have "Common Areas". These can serve a similar purpose to a Hallway, providing traversal through parts of the station, but tend to be designed around a specific purpose. These are important to add to the roleplay aspect of the game and to make the station seem more realistic; recreation would be important on a remote space station, after all. Bored crew can also repurpose these "ownerless" rooms into something else as they are free space in often fairly high-traffic areas of the station.
+
+In terms of gameplay they can serve different purposes; a side room for eating vending machine snacks may also serve as a path into maintenance, or a wider hallway with chairs and tables can break up same-y hallways. Bathrooms tend to be fairly useful as they provide an excuse to map in intuitive publicly accessible water access (sinks & toilets) as well as floor drains for disposing chemicals. Aim to have a reason for why a Common Area is where it is; is it there to enhance station movement? Does it add to the aesthetics to the station? 
+
+```admonish note "{Aesthetics}"
+Common areas are very versatile and even those that are primarily made for gameplay functionality can have strong themes. So lean into it! What is the purpose of the area? What kind of utility would an area in that part of the station provide? Is it related to any nearby department? 
+```
+
+<details>
+<summary>Common Areas Checklist</summary>
+<br>
+- <b>[TODO: Fill in checklist]</b>
+</details>
 
 #### Maintenance
 
@@ -60,7 +108,7 @@ Especially Maintenance should feel lived-in; what would it look like after the s
 ```
 
 ```admonish info
-While you are free to map them more openly, there should generally be a fire-safety or emergency-oxygen closet right inside the entrance to a Maintenance section. It's fine to disperse more of these further into Maintenance as well!
+While you are free to map fire-safety or emergency-oxygen closets in more open areas such as Hallways, there should generally be a closet right inside the entrance to a Maintenance section. It's fine to disperse more of these further into Maintenance as well!
 ```
 
 ```admonish info
@@ -72,7 +120,7 @@ Maintenance should have air/oxygen/nitrogen canisters mapped inside of it, prefe
 ```
 
 ```admonish warning
-Engineering substations should generally be freely accessible to Engineers, and Maintenance is a good place to put them. 
+Engineering substations should generally be freely accessible to Engineers so that they can repair and/or sabotage them, and Maintenance is a good place to put them. 
 ```
 
 ```admonish warning

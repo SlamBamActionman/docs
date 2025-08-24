@@ -16,6 +16,10 @@ There are multiple ways to begin mapping, but to save yourself the trouble of co
 
 Use existing stations as inspiration and guidance! Comparing at the size of departments and general areas can help with determining how many players your station will be able to support and inform how many lockers, ammenities and what power structures need to be mapped.
 
+```admonish warning
+It is highly recommended to design your map with maintenance areas and passageways in mind in the early stages, rather than waiting until the very end to fit them in as an afterthought. Waiting until the very end commonly leads to many pitfalls described in the Maintenance section.
+```
+
 ### Station Theme
 
 When trying to conceptualize a new station, it can be useful to decide on a **theme**, **lore** or **gimmick** for your map as a starting point. This can help inform decisions you make about the station's layout and design to ensure that it feels cohesive and unique. The default setting of SS14 stations is a corporate research station accommodating NanoTrasen workers and passengers. Some examples include:
@@ -31,13 +35,13 @@ Remember! Having a theme or focusing on a gimmick does not guarantee a good stat
 
 ## General Station Layout
 
-**[TODO: Expand this section? Maybe move things into a Tips & Tricks section instead.]**
+**[TODO: Expand this section? Maybe move things into a Tips & Tricks section instead. Everything below is just notes atm.]**
 
 When designing a station, you want to have a healthy balance of **Departmental**, **General** and **Maintenance** areas. 
 
 Avoid dead end hallways and areas. 
 
-Avoid double-thick walls.
+Avoid double-thick walls. Minus places like armory or vault of course, however these places oftentimes have unique designs like airgap spacing or otherwise, and should be discussed more heavily in a per-room analysis.
 
 
 
@@ -124,7 +128,7 @@ Maintenance should have air/oxygen/nitrogen canisters mapped inside of it, prefe
 ```
 
 ```admonish warning
-Engineering substations should generally be freely accessible to Engineers so that they can repair and/or sabotage them, and Maintenance is a good place to put them. 
+Power substations should generally be freely accessible to Engineers so that they can repair and/or sabotage them, and Maintenance is a good place to put them. Exceptions exist, such as Engineering's substation being safer inside of Engineering itself, and the AI core generally having its own power network.
 ```
 
 ```admonish warning
@@ -167,15 +171,83 @@ Note that this can also make Arrivals an appealing entry point for antags. Provi
 
 #### Evacuation
 
+The Evacuation area is important for more reasons than having a place for the Evac shuttle to dock - it's a very common natural crew assembly place in many different situations.
+
+Evac commonly features an appropriately sized waiting area for people to sit down for the shuttle to arrive. Basic waiting amenities and objects like vending machines, tables for games, and arcade machines can help establish that feel. Because Evac gets large crowds that can draw antagonists to it and has to, by definition, be space-facing you should make sure to include fire-safety and emergency-oxygen closets nearby, and oxygen and nitrogen tanks in maints for players to conveniently find and bring into the Evac area to help support staging operations held there.
+
+The Evacuation area directly interfaces with the Evac shuttle and can therefore take advantage of any unique properties the chosen Evac shuttle for the map has. It is common to map a Security area that connects to a shuttle dock that leads to the Security area on the Evac shuttle. This area can include Security-related things like an evidence locker, recharger, box of zipties, etc., but try to fill it with equipment and computers proportional to its security level. For example, try not to map a criminal records computer (a prominent ninja objective) in an Evac Security area exposed to space or a full Security equipment locker, as they can be easily stolen without much confrontation or friction from Security.
+
+When designing docks for the Evac shuttle, it's a good idea to design them in a way that:
+
+- Makes it hard for meteors to damage the Evac dock easily. Meteor shielding and docks facing away from open space are ways to do this.
+- Makes it difficult to block the Evacuation from arriving (whether it be preventing foreign shuttles from intruding into the dock, or giving Evac multiple valid spaces to dock).
+
+```admonish note "{Aesthetics}"
+Evacuation's design as a gathering space often requires function over form. How can you make your station's Evacuation lean into the general theme and design?
+```
+
+```admonish warning
+Be careful with evacuation dock extending out from the station that are primarily made out of reinforced glass - they oftentimes take an extremely long time to repair and, due to their high surface area, are struck by meteors extensively and frequently.
+```
+
 #### Tool Room
+
+The Tool Room is a common place for the crew to grab tools and other equipment needed by them to tend to department duties or for projects. It is also a common Passenger spawnpoint to encourage the role to use tools to explore the station, and players tend to flock to the room at the start of a round. The goal of the tool room is to provide things that give players the opportunity to create things and do what they want to do, and also gives a location where crew can expect certain ammenities. Placement-wise it is fairly flexible and can be situated pretty much anywhere on the station where it is generally accessible, though this flexibility means other more restrictive areas can take priority when planning the layout. 
+
+As such, it commonly contains basic equipment scattered around the room, like:
+
+- Vending machines like the YouTool and Vendomat.
+- Fuel and water tanks.
+- A cell charger.
+- Various tools and toolboxes.
+
+```admonish note "{Aesthetics}"
+The Tool Room is for tools meant to be provided to the crew; how would the station showcase this? Where and why was the tool room set up?
+```
+
+```admonish warning
+It's not a good idea to place a lot of high-value Engi gear like multitools or insulated gloves - one may be fine for a small race between Passengers on roundstart, but these should otherwise be gambled for or stolen out of the vends.
+```
 
 ## Departments
 
+Departments are the bulk or the meat of your station - people will be spending most of their time in them, either interacting with their fellow department members or dealing with whatever person, work or friction they encounter.
+
+There are many things that make a department good, but a key component of that is department *flow* and *ergonomics*.
+
+Flow is how the department is laid out. It doesn't make sense for a Medical's main treatment hall to be in the very back, with the Chemistry cold storage in the front. Instead, lay out your department so that high-traffic areas are in the front and low-traffic areas are in the back. This makes it smoother for crew to interact with the department, with faster navigation between key areas on the station. It also makes it easier for department crewmembers to have somewhere private to retreat to, which both allows for some calm and privacy as well as opportunities for antagonist gameplay. 
+
+Ergonomics describes how well people and equipment move through these department areas. The goal is to reduce tedium; rooms with related equipment should be in close proximity to each other, passageways and spaces should allow for smooth navigation and work, and interactions between workers and crew shouldn't require unnecessary effort. Engineers shouldn't have to squeeze an Singularity generator through multiple one-tile doorways in order to get to the Singularity Chamber; ensure the secure storage is near the exit airlocks or have wider doorways. A front desk for a department that deals with crates and other large items shouldn't require going around a long way just to handle them; include a nearby doorway and/or plastic flaps near the front desk instead.
+
+Placed machines, tables, chairs, tanks, etc. also contribute to this feeling of flow and ergonomics. Having furniture is good for making a feel lived in, but it can be detrimental if the room offers little room for a character to move!
+
+```admonish note "{Aesthetics}"
+Make your departments unique! While departments have inherent differences to each other, what is the flavor for a department on your station? Delapitated, clean, improvised, corporate? What are the stories behind your station's departments?
+```
+
+```admonish info
+Front desks are common for most departments to encourage collaboration between crew. Make sure that they're not too far away from the high-traffic areas, so that someone visiting the department can be seen by the department crewmembers and get service. 
+```
+
 ### Command
+
+Command as a department is made up of the heads of the various department, Head of Personnel and Captain. Much of the map area attributed to it is meant to cater to HoP and Captain, as well as safe collaboration areas for the heads to utilize. What distinguishes Command areas is that they tend to be more secure than most others, often with restricted items and with trespassers sticking out like a sore thumb.  
+
+Many of the Command areas do not have strong ties that require them to be located in close proximity to each other, but there are some strong recommendations for some of the sub-areas. It's highly encouraged to place Captain's office in close proximity to the Bridge to make passing through the Bridge a necessity to reach the it as an added layer of security. Since the Bridge is meant to cater to all Command staff it is also common to see a Conference Room connected to it, and HoP's Office can be thematically appropriate to be nearby as well.  
+
+Mappers also tend to place Command-related subsystems, such as power substations and other infrastructure, in close proximity to the central gathering of Command areas, however they usually do so with decreased security (e.g. being accessible from Maints) or have them be accessible to their relevant departments (Engineering with the substations).
+
+```admonish note "{Aesthetics}"
+Command are meant to be the leaders of the station, and the Command areas should follow that philosophy. But what does being a "leader" mean on your station? What way is the leadership accomodated? 
+```
+
+```admonish info
+While command areas should be secure, it should be possible to quietly break into given enough time and patience, or grant opportunity for a "loud" play.
+```
 
 #### Bridge
 
-#### Captain's Room
+#### Captain's Office
 
 #### Vault
 
